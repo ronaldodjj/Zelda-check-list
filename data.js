@@ -257,20 +257,6 @@ window.ZELDA_GAMES = [
           ],
         },
         {
-          id: "hp-shadow-temple",
-          name: "Templo de las Sombras",
-          items: [
-          { id: "hp-shadow-temple-1", name: "#1" },
-          ],
-        },
-        {
-          id: "hp-spirit-temple",
-          name: "Templo del Espíritu",
-          items: [
-          { id: "hp-spirit-temple-1", name: "#1" },
-          ],
-        },
-        {
           id: "hp-bottom-well",
           name: "Pozo del Fondo",
           items: [
@@ -299,15 +285,8 @@ window.ZELDA_GAMES = [
           ],
         },
         {
-          id: "hp-kokiri-forest",
-          name: "Bosque Kokiri",
-          items: [
-          { id: "hp-kokiri-forest-1", name: "#1" },
-          ],
-        },
-        {
           id: "hp-lost-woods",
-          name: "Bosque Perdido",
+          name: "Bosque Perdido / Prado Sagrado",
           items: [
           { id: "hp-lost-woods-1", name: "#1" },
           { id: "hp-lost-woods-2", name: "#2" },
@@ -343,7 +322,6 @@ window.ZELDA_GAMES = [
           items: [
           { id: "hp-kakariko-1", name: "#1" },
           { id: "hp-kakariko-2", name: "#2" },
-          { id: "hp-kakariko-3", name: "#3" },
           ],
         },
         {
@@ -352,6 +330,7 @@ window.ZELDA_GAMES = [
           items: [
           { id: "hp-graveyard-1", name: "#1" },
           { id: "hp-graveyard-2", name: "#2" },
+          { id: "hp-graveyard-3", name: "#3" },
           ],
         },
         {
@@ -374,6 +353,7 @@ window.ZELDA_GAMES = [
           name: "Cráter de la Montaña de la Muerte",
           items: [
           { id: "hp-dmc-1", name: "#1" },
+          { id: "hp-dmc-2", name: "#2" },
           ],
         },
         {
@@ -388,7 +368,6 @@ window.ZELDA_GAMES = [
           name: "Reino Zora",
           items: [
           { id: "hp-zora-domain-1", name: "#1" },
-          { id: "hp-zora-domain-2", name: "#2" },
           ],
         },
         {
@@ -404,13 +383,22 @@ window.ZELDA_GAMES = [
           name: "Valle Gerudo",
           items: [
           { id: "hp-gerudo-valley-1", name: "#1" },
+          { id: "hp-gerudo-valley-2", name: "#2" },
           ],
         },
         {
-          id: "hp-gerudo-desert",
-          name: "Fortaleza Gerudo / Desierto",
+          id: "hp-gerudo-fortress",
+          name: "Fortaleza Gerudo",
           items: [
-          { id: "hp-gerudo-desert-1", name: "#1" },
+          { id: "hp-gerudo-fortress-1", name: "#1" },
+          { id: "hp-gerudo-fortress-2", name: "#2" },
+          ],
+        },
+        {
+          id: "hp-desert-colossus",
+          name: "Coloso del Desierto",
+          items: [
+          { id: "hp-desert-colossus-1", name: "#1" },
           ],
         },
         ],
@@ -567,6 +555,7 @@ window.ZELDA_GAMES = [
           { id: "sk-hyrule-field-2", name: "#2" },
           { id: "sk-hyrule-field-3", name: "#3" },
           { id: "sk-hyrule-field-4", name: "#4" },
+          { id: "sk-hyrule-field-5", name: "#5" },
           ],
         },
         {
@@ -621,7 +610,6 @@ window.ZELDA_GAMES = [
           name: "Ciudad Goron",
           items: [
           { id: "sk-goron-city-1", name: "#1" },
-          { id: "sk-goron-city-2", name: "#2" },
           ],
         },
         {
@@ -638,7 +626,6 @@ window.ZELDA_GAMES = [
           items: [
           { id: "sk-zora-river-1", name: "#1" },
           { id: "sk-zora-river-2", name: "#2" },
-          { id: "sk-zora-river-3", name: "#3" },
           ],
         },
         {
@@ -646,8 +633,6 @@ window.ZELDA_GAMES = [
           name: "Reino Zora",
           items: [
           { id: "sk-zora-domain-1", name: "#1" },
-          { id: "sk-zora-domain-2", name: "#2" },
-          { id: "sk-zora-domain-3", name: "#3" },
           ],
         },
         {
@@ -665,6 +650,8 @@ window.ZELDA_GAMES = [
           { id: "sk-lake-hylia-1", name: "#1" },
           { id: "sk-lake-hylia-2", name: "#2" },
           { id: "sk-lake-hylia-3", name: "#3" },
+          { id: "sk-lake-hylia-4", name: "#4" },
+          { id: "sk-lake-hylia-5", name: "#5" },
           ],
         },
         {
@@ -673,6 +660,8 @@ window.ZELDA_GAMES = [
           items: [
           { id: "sk-gerudo-valley-1", name: "#1" },
           { id: "sk-gerudo-valley-2", name: "#2" },
+          { id: "sk-gerudo-valley-3", name: "#3" },
+          { id: "sk-gerudo-valley-4", name: "#4" },
           ],
         },
         {
@@ -681,16 +670,21 @@ window.ZELDA_GAMES = [
           items: [
           { id: "sk-gerudo-fortress-1", name: "#1" },
           { id: "sk-gerudo-fortress-2", name: "#2" },
-          { id: "sk-gerudo-fortress-3", name: "#3" },
           ],
         },
         {
-          id: "sk-desert",
-          name: "Desierto / Coloso del Desierto",
+          id: "sk-wasteland",
+          name: "Desierto de los Espectros",
           items: [
-          { id: "sk-desert-1", name: "#1" },
-          { id: "sk-desert-2", name: "#2" },
-          { id: "sk-desert-3", name: "#3" },
+          { id: "sk-wasteland-1", name: "#1" },
+          ],
+        },
+        {
+          id: "sk-desert-colossus",
+          name: "Coloso del Desierto",
+          items: [
+          { id: "sk-desert-colossus-1", name: "#1" },
+          { id: "sk-desert-colossus-2", name: "#2" },
           ],
         },
         ],
