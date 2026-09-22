@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1" />
+<title>Zelda Checklist</title>
+<meta name="description" content="Checklist de misiones, objetos y coleccionables de Zelda: Ocarina of Time y otros juegos de la saga, con progreso guardado en tu dispositivo." />
+<meta name="theme-color" content="#0f1613" />
+<link rel="manifest" href="manifest.webmanifest" />
+<link rel="icon" href="icons/icon-192.png" />
+<link rel="apple-touch-icon" href="icons/icon-192.png" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="Zelda Checklist" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="app-header">
+  <div class="brand-row">
+    <img src="icons/icon-192.png" alt="" class="brand-icon" />
+    <div class="brand-title">
+      Zelda Checklist
+      <small>Progreso 100% · guardado en este dispositivo</small>
+    </div>
+    <button class="icon-btn" id="installBtn" title="Instalar app" style="display:none;">⬇️</button>
+    <button class="icon-btn" id="themeBtn" title="Cambiar tema">🌓</button>
+  </div>
+  <div class="game-tabs" id="gameTabs"></div>
+</header>
+
+<main>
+  <section class="progress-hero" id="progressHero">
+    <div class="progress-ring-wrap">
+      <svg width="84" height="84" viewBox="0 0 84 84">
+        <circle class="progress-ring-track" cx="42" cy="42" r="36" stroke-width="8" />
+        <circle class="progress-ring-bar" id="ringBar" cx="42" cy="42" r="36" stroke-width="8" />
+      </svg>
+      <div class="progress-ring-label" id="ringLabel">0%</div>
+    </div>
+    <div class="progress-hero-info">
+      <h2 id="heroTitle">Cargando…</h2>
+      <p id="heroSubtitle"></p>
+      <span class="count-pill" id="heroCount">0 / 0</span>
+    </div>
+  </section>
+
+  <div class="toolbar">
+    <input type="text" class="search-input" id="searchInput" placeholder="Buscar objeto o canción…" />
+  </div>
+
+  <div id="categories"></div>
+  <p class="empty-state" id="emptyState" style="display:none;">No se encontraron elementos para tu búsqueda.</p>
+
+  <div class="fab-row">
+    <button class="pill-btn" id="addCategoryBtn">➕ Categoría</button>
+    <button class="pill-btn" id="exportBtn">⬆️ Exportar copia</button>
+    <label class="pill-btn" for="importInput">⬇️ Importar copia</label>
+    <input type="file" id="importInput" accept="application/json" style="display:none;" />
+    <button class="pill-btn danger" id="resetBtn">♻️ Reiniciar progreso</button>
+  </div>
+
+  <footer>
+    Hecho para trackear tu partida a 100%. Los datos se guardan solo en este navegador (localStorage), nunca se envían a ningún servidor.
+  </footer>
+</main>
+
+<div class="modal-backdrop" id="genericModal">
+  <div class="modal-sheet">
+    <h3 id="genericModalTitle">Título</h3>
+    <div id="genericModalBody"></div>
+    <div class="modal-actions" id="genericModalActions"></div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
