@@ -222,183 +222,183 @@ window.ZELDA_GAMES = [
         note: "36 piezas = 9 contenedores extra de corazón.",
         groups: [
         {
-          id: "hp-deku-tree",
-          name: "Gran Árbol Deku",
+          id: "hp-graveyard",
+          name: "Cementerio de Kakariko",
           items: [
-          { id: "hp-deku-tree-1", name: "#1" },
-          ],
-        },
-        {
-          id: "hp-dodongo",
-          name: "Caverna Dodongo",
-          items: [
-          { id: "hp-dodongo-1", name: "#1" },
-          ],
-        },
-        {
-          id: "hp-forest-temple",
-          name: "Templo del Bosque",
-          items: [
-          { id: "hp-forest-temple-1", name: "#1" },
-          ],
-        },
-        {
-          id: "hp-fire-temple",
-          name: "Templo del Fuego",
-          items: [
-          { id: "hp-fire-temple-1", name: "#1" },
-          ],
-        },
-        {
-          id: "hp-water-temple",
-          name: "Templo del Agua",
-          items: [
-          { id: "hp-water-temple-1", name: "#1" },
-          ],
-        },
-        {
-          id: "hp-bottom-well",
-          name: "Pozo del Fondo",
-          items: [
-          { id: "hp-bottom-well-1", name: "#1" },
-          ],
-        },
-        {
-          id: "hp-ice-cavern",
-          name: "Caverna de Hielo",
-          items: [
-          { id: "hp-ice-cavern-1", name: "#1" },
-          ],
-        },
-        {
-          id: "hp-gtg",
-          name: "Terreno de Entrenamiento Gerudo",
-          items: [
-          { id: "hp-gtg-1", name: "#1" },
-          ],
-        },
-        {
-          id: "hp-ganons-castle",
-          name: "Castillo de Ganon (ruinas)",
-          items: [
-          { id: "hp-ganons-castle-1", name: "#1" },
-          ],
-        },
-        {
-          id: "hp-lost-woods",
-          name: "Bosque Perdido / Prado Sagrado",
-          items: [
-          { id: "hp-lost-woods-1", name: "#1" },
-          { id: "hp-lost-woods-2", name: "#2" },
-          ],
-        },
-        {
-          id: "hp-hyrule-field",
-          name: "Pradera de Hyrule",
-          items: [
-          { id: "hp-hyrule-field-1", name: "#1" },
-          { id: "hp-hyrule-field-2", name: "#2" },
-          ],
-        },
-        {
-          id: "hp-market",
-          name: "Mercado / Ciudadela de Hyrule",
-          items: [
-          { id: "hp-market-1", name: "#1" },
-          { id: "hp-market-2", name: "#2" },
+          { id: "hp-1", name: "#1" },
+          { id: "hp-2", name: "#2" },
+          { id: "hp-19", name: "#19" },
           ],
         },
         {
           id: "hp-lon-lon",
           name: "Rancho Lon Lon",
           items: [
-          { id: "hp-lon-lon-1", name: "#1" },
-          { id: "hp-lon-lon-2", name: "#2" },
-          ],
-        },
-        {
-          id: "hp-kakariko",
-          name: "Pueblo Kakariko",
-          items: [
-          { id: "hp-kakariko-1", name: "#1" },
-          { id: "hp-kakariko-2", name: "#2" },
-          ],
-        },
-        {
-          id: "hp-graveyard",
-          name: "Cementerio",
-          items: [
-          { id: "hp-graveyard-1", name: "#1" },
-          { id: "hp-graveyard-2", name: "#2" },
-          { id: "hp-graveyard-3", name: "#3" },
-          ],
-        },
-        {
-          id: "hp-dmt",
-          name: "Sendero de la Montaña de la Muerte",
-          items: [
-          { id: "hp-dmt-1", name: "#1" },
-          { id: "hp-dmt-2", name: "#2" },
-          ],
-        },
-        {
-          id: "hp-goron-city",
-          name: "Ciudad Goron",
-          items: [
-          { id: "hp-goron-city-1", name: "#1" },
-          ],
-        },
-        {
-          id: "hp-dmc",
-          name: "Cráter de la Montaña de la Muerte",
-          items: [
-          { id: "hp-dmc-1", name: "#1" },
-          { id: "hp-dmc-2", name: "#2" },
-          ],
-        },
-        {
-          id: "hp-zora-river",
-          name: "Río Zora",
-          items: [
-          { id: "hp-zora-river-1", name: "#1" },
-          ],
-        },
-        {
-          id: "hp-zora-domain",
-          name: "Reino Zora",
-          items: [
-          { id: "hp-zora-domain-1", name: "#1" },
-          ],
-        },
-        {
-          id: "hp-lake-hylia",
-          name: "Lago Hylia",
-          items: [
-          { id: "hp-lake-hylia-1", name: "#1" },
-          { id: "hp-lake-hylia-2", name: "#2" },
+          { id: "hp-3", name: "#3" },
           ],
         },
         {
           id: "hp-gerudo-valley",
           name: "Valle Gerudo",
           items: [
-          { id: "hp-gerudo-valley-1", name: "#1" },
-          { id: "hp-gerudo-valley-2", name: "#2" },
+          { id: "hp-4", name: "#4" },
+          { id: "hp-6", name: "#6" },
+          ],
+        },
+        {
+          id: "hp-fishing-pond",
+          name: "Estanque de Pesca",
+          items: [
+          { id: "hp-5", name: "#5" },
+          ],
+        },
+        {
+          id: "hp-lost-woods",
+          name: "Bosque Perdido",
+          items: [
+          { id: "hp-7", name: "#7" },
+          { id: "hp-8", name: "#8" },
+          ],
+        },
+        {
+          id: "hp-market",
+          name: "Ciudadela de Hyrule",
+          items: [
+          { id: "hp-9", name: "#9" },
+          ],
+        },
+        {
+          id: "hp-goron-city",
+          name: "Ciudad Goron",
+          items: [
+          { id: "hp-10", name: "#10" },
+          ],
+        },
+        {
+          id: "hp-death-mountain",
+          name: "Montaña de la Muerte",
+          items: [
+          { id: "hp-11", name: "#11" },
+          ],
+        },
+        {
+          id: "hp-dmc",
+          name: "Cráter de la Montaña de la Muerte",
+          items: [
+          { id: "hp-12", name: "#12" },
+          { id: "hp-27", name: "#27" },
+          ],
+        },
+        {
+          id: "hp-kakariko",
+          name: "Kakariko",
+          items: [
+          { id: "hp-13", name: "#13" },
+          { id: "hp-22", name: "#22" },
+          ],
+        },
+        {
+          id: "hp-bombchu-bowling",
+          name: "Bolera Bombuchu",
+          items: [
+          { id: "hp-14", name: "#14" },
+          ],
+        },
+        {
+          id: "hp-hyrule-field",
+          name: "Pradera de Hyrule",
+          items: [
+          { id: "hp-15", name: "#15" },
+          { id: "hp-26", name: "#26" },
+          ],
+        },
+        {
+          id: "hp-zora-river",
+          name: "Río Zora",
+          items: [
+          { id: "hp-16", name: "#16" },
+          { id: "hp-17", name: "#17" },
+          { id: "hp-31", name: "#31" },
+          { id: "hp-32", name: "#32" },
+          ],
+        },
+        {
+          id: "hp-zora-domain",
+          name: "Dominio Zora",
+          items: [
+          { id: "hp-18", name: "#18" },
+          ],
+        },
+        {
+          id: "hp-windmill",
+          name: "Molino",
+          items: [
+          { id: "hp-20", name: "#20" },
+          ],
+        },
+        {
+          id: "hp-dampe-grave",
+          name: "Tumba de Dampé",
+          items: [
+          { id: "hp-21", name: "#21" },
+          ],
+        },
+        {
+          id: "hp-skulltula-house",
+          name: "Casa de las Skulltulas",
+          items: [
+          { id: "hp-23", name: "#23" },
+          ],
+        },
+        {
+          id: "hp-lake-hylia",
+          name: "Lago Hylia",
+          items: [
+          { id: "hp-24", name: "#24" },
+          ],
+        },
+        {
+          id: "hp-lake-lab",
+          name: "Laboratorio del Lago",
+          items: [
+          { id: "hp-25", name: "#25" },
+          ],
+        },
+        {
+          id: "hp-zora-fountain",
+          name: "Fuente Zora",
+          items: [
+          { id: "hp-28", name: "#28" },
+          { id: "hp-30", name: "#30" },
+          ],
+        },
+        {
+          id: "hp-ice-cavern",
+          name: "Caverna de Hielo",
+          items: [
+          { id: "hp-29", name: "#29" },
+          ],
+        },
+        {
+          id: "hp-treasure-chest-game",
+          name: "Concurso de Cofres del Tesoro",
+          items: [
+          { id: "hp-33", name: "#33" },
           ],
         },
         {
           id: "hp-gerudo-fortress",
           name: "Fortaleza Gerudo",
           items: [
-          { id: "hp-gerudo-fortress-1", name: "#1" },
-          { id: "hp-gerudo-fortress-2", name: "#2" },
+          { id: "hp-34", name: "#34" },
+          { id: "hp-35", name: "#35" },
           ],
         },
         {
           id: "hp-desert-colossus",
           name: "Coloso del Desierto",
           items: [
-          { id: "hp-desert-colossus-1", name: "#1" },
+          { id: "hp-36", name: "#36" },
           ],
         },
         ],
@@ -408,116 +408,110 @@ window.ZELDA_GAMES = [
         name: "Skulltulas Doradas — Mazmorras",
         icon: "🕷️",
         type: "grouped-list",
-        note: "5 por cada una de las 10 mazmorras con Skulltulas.",
+        note: "44 en las 10 mazmorras con Skulltulas (no reparten 5 por igual).",
         groups: [
         {
           id: "sk-deku-tree",
           name: "Gran Árbol Deku",
           items: [
-          { id: "sk-deku-tree-1", name: "#1" },
-          { id: "sk-deku-tree-2", name: "#2" },
-          { id: "sk-deku-tree-3", name: "#3" },
-          { id: "sk-deku-tree-4", name: "#4" },
-          { id: "sk-deku-tree-5", name: "#5" },
+          { id: "sk-1", name: "#1" },
+          { id: "sk-2", name: "#2" },
+          { id: "sk-3", name: "#3" },
+          { id: "sk-36", name: "#36" },
           ],
         },
         {
           id: "sk-dodongo",
           name: "Caverna Dodongo",
           items: [
-          { id: "sk-dodongo-1", name: "#1" },
-          { id: "sk-dodongo-2", name: "#2" },
-          { id: "sk-dodongo-3", name: "#3" },
-          { id: "sk-dodongo-4", name: "#4" },
-          { id: "sk-dodongo-5", name: "#5" },
+          { id: "sk-22", name: "#22" },
+          { id: "sk-23", name: "#23" },
+          { id: "sk-24", name: "#24" },
+          { id: "sk-44", name: "#44" },
+          { id: "sk-55", name: "#55" },
           ],
         },
         {
           id: "sk-jabu",
           name: "Vientre de Jabu-Jabu",
           items: [
-          { id: "sk-jabu-1", name: "#1" },
-          { id: "sk-jabu-2", name: "#2" },
-          { id: "sk-jabu-3", name: "#3" },
-          { id: "sk-jabu-4", name: "#4" },
-          { id: "sk-jabu-5", name: "#5" },
-          ],
-        },
-        {
-          id: "sk-forest-temple",
-          name: "Templo del Bosque",
-          items: [
-          { id: "sk-forest-temple-1", name: "#1" },
-          { id: "sk-forest-temple-2", name: "#2" },
-          { id: "sk-forest-temple-3", name: "#3" },
-          { id: "sk-forest-temple-4", name: "#4" },
-          { id: "sk-forest-temple-5", name: "#5" },
-          ],
-        },
-        {
-          id: "sk-fire-temple",
-          name: "Templo del Fuego",
-          items: [
-          { id: "sk-fire-temple-1", name: "#1" },
-          { id: "sk-fire-temple-2", name: "#2" },
-          { id: "sk-fire-temple-3", name: "#3" },
-          { id: "sk-fire-temple-4", name: "#4" },
-          { id: "sk-fire-temple-5", name: "#5" },
-          ],
-        },
-        {
-          id: "sk-water-temple",
-          name: "Templo del Agua",
-          items: [
-          { id: "sk-water-temple-1", name: "#1" },
-          { id: "sk-water-temple-2", name: "#2" },
-          { id: "sk-water-temple-3", name: "#3" },
-          { id: "sk-water-temple-4", name: "#4" },
-          { id: "sk-water-temple-5", name: "#5" },
+          { id: "sk-31", name: "#31" },
+          { id: "sk-32", name: "#32" },
+          { id: "sk-33", name: "#33" },
+          { id: "sk-34", name: "#34" },
           ],
         },
         {
           id: "sk-bottom-well",
           name: "Pozo del Fondo",
           items: [
-          { id: "sk-bottom-well-1", name: "#1" },
-          { id: "sk-bottom-well-2", name: "#2" },
-          { id: "sk-bottom-well-3", name: "#3" },
-          { id: "sk-bottom-well-4", name: "#4" },
-          { id: "sk-bottom-well-5", name: "#5" },
-          ],
-        },
-        {
-          id: "sk-shadow-temple",
-          name: "Templo de las Sombras",
-          items: [
-          { id: "sk-shadow-temple-1", name: "#1" },
-          { id: "sk-shadow-temple-2", name: "#2" },
-          { id: "sk-shadow-temple-3", name: "#3" },
-          { id: "sk-shadow-temple-4", name: "#4" },
-          { id: "sk-shadow-temple-5", name: "#5" },
+          { id: "sk-79", name: "#79" },
+          { id: "sk-80", name: "#80" },
+          { id: "sk-81", name: "#81" },
           ],
         },
         {
           id: "sk-spirit-temple",
           name: "Templo del Espíritu",
           items: [
-          { id: "sk-spirit-temple-1", name: "#1" },
-          { id: "sk-spirit-temple-2", name: "#2" },
-          { id: "sk-spirit-temple-3", name: "#3" },
-          { id: "sk-spirit-temple-4", name: "#4" },
-          { id: "sk-spirit-temple-5", name: "#5" },
+          { id: "sk-93", name: "#93" },
+          { id: "sk-94", name: "#94" },
+          { id: "sk-95", name: "#95" },
+          { id: "sk-98", name: "#98" },
+          { id: "sk-99", name: "#99" },
+          ],
+        },
+        {
+          id: "sk-forest-temple",
+          name: "Templo del Bosque",
+          items: [
+          { id: "sk-50", name: "#50" },
+          { id: "sk-51", name: "#51" },
+          { id: "sk-52", name: "#52" },
+          { id: "sk-53", name: "#53" },
+          { id: "sk-54", name: "#54" },
+          ],
+        },
+        {
+          id: "sk-fire-temple",
+          name: "Templo del Fuego",
+          items: [
+          { id: "sk-58", name: "#58" },
+          { id: "sk-59", name: "#59" },
+          { id: "sk-60", name: "#60" },
+          { id: "sk-61", name: "#61" },
+          { id: "sk-62", name: "#62" },
           ],
         },
         {
           id: "sk-ice-cavern",
           name: "Caverna de Hielo",
           items: [
-          { id: "sk-ice-cavern-1", name: "#1" },
-          { id: "sk-ice-cavern-2", name: "#2" },
-          { id: "sk-ice-cavern-3", name: "#3" },
-          { id: "sk-ice-cavern-4", name: "#4" },
-          { id: "sk-ice-cavern-5", name: "#5" },
+          { id: "sk-68", name: "#68" },
+          { id: "sk-69", name: "#69" },
+          { id: "sk-70", name: "#70" },
+          ],
+        },
+        {
+          id: "sk-water-temple",
+          name: "Templo del Agua",
+          items: [
+          { id: "sk-72", name: "#72" },
+          { id: "sk-73", name: "#73" },
+          { id: "sk-74", name: "#74" },
+          { id: "sk-75", name: "#75" },
+          { id: "sk-76", name: "#76" },
+          ],
+        },
+        {
+          id: "sk-shadow-temple",
+          name: "Templo de las Sombras",
+          items: [
+          { id: "sk-82", name: "#82" },
+          { id: "sk-83", name: "#83" },
+          { id: "sk-84", name: "#84" },
+          { id: "sk-85", name: "#85" },
+          { id: "sk-86", name: "#86" },
           ],
         },
         ],
@@ -530,161 +524,191 @@ window.ZELDA_GAMES = [
         note: "Repartidas por Hyrule. Muchas solo aparecen de noche.",
         groups: [
         {
-          id: "sk-kokiri-forest",
-          name: "Bosque Kokiri",
-          items: [
-          { id: "sk-kokiri-forest-1", name: "#1" },
-          { id: "sk-kokiri-forest-2", name: "#2" },
-          { id: "sk-kokiri-forest-3", name: "#3" },
-          ],
-        },
-        {
-          id: "sk-lost-woods",
-          name: "Bosque Perdido",
-          items: [
-          { id: "sk-lost-woods-1", name: "#1" },
-          { id: "sk-lost-woods-2", name: "#2" },
-          { id: "sk-lost-woods-3", name: "#3" },
-          ],
-        },
-        {
-          id: "sk-hyrule-field",
-          name: "Pradera de Hyrule",
-          items: [
-          { id: "sk-hyrule-field-1", name: "#1" },
-          { id: "sk-hyrule-field-2", name: "#2" },
-          { id: "sk-hyrule-field-3", name: "#3" },
-          { id: "sk-hyrule-field-4", name: "#4" },
-          { id: "sk-hyrule-field-5", name: "#5" },
-          ],
-        },
-        {
           id: "sk-market",
-          name: "Mercado / Ciudadela de Hyrule",
+          name: "Ciudadela de Hyrule",
           items: [
-          { id: "sk-market-1", name: "#1" },
-          { id: "sk-market-2", name: "#2" },
-          { id: "sk-market-3", name: "#3" },
+          { id: "sk-4", name: "#4" },
+          ],
+        },
+        {
+          id: "sk-castle-grounds",
+          name: "Terrenos del Castillo",
+          items: [
+          { id: "sk-5", name: "#5" },
+          { id: "sk-78", name: "#78" },
+          ],
+        },
+        {
+          id: "sk-kakariko",
+          name: "Kakariko",
+          items: [
+          { id: "sk-6", name: "#6" },
+          { id: "sk-7", name: "#7" },
+          { id: "sk-8", name: "#8" },
+          { id: "sk-9", name: "#9" },
+          { id: "sk-10", name: "#10" },
+          { id: "sk-45", name: "#45" },
+          ],
+        },
+        {
+          id: "sk-graveyard",
+          name: "Cementerio de Kakariko",
+          items: [
+          { id: "sk-11", name: "#11" },
+          { id: "sk-43", name: "#43" },
           ],
         },
         {
           id: "sk-lon-lon",
           name: "Rancho Lon Lon",
           items: [
-          { id: "sk-lon-lon-1", name: "#1" },
-          { id: "sk-lon-lon-2", name: "#2" },
-          { id: "sk-lon-lon-3", name: "#3" },
-          ],
-        },
-        {
-          id: "sk-kakariko",
-          name: "Pueblo Kakariko",
-          items: [
-          { id: "sk-kakariko-1", name: "#1" },
-          { id: "sk-kakariko-2", name: "#2" },
-          { id: "sk-kakariko-3", name: "#3" },
-          { id: "sk-kakariko-4", name: "#4" },
-          { id: "sk-kakariko-5", name: "#5" },
-          ],
-        },
-        {
-          id: "sk-graveyard",
-          name: "Cementerio",
-          items: [
-          { id: "sk-graveyard-1", name: "#1" },
-          { id: "sk-graveyard-2", name: "#2" },
-          { id: "sk-graveyard-3", name: "#3" },
-          ],
-        },
-        {
-          id: "sk-dmt",
-          name: "Sendero de la Montaña de la Muerte",
-          items: [
-          { id: "sk-dmt-1", name: "#1" },
-          { id: "sk-dmt-2", name: "#2" },
-          { id: "sk-dmt-3", name: "#3" },
-          ],
-        },
-        {
-          id: "sk-goron-city",
-          name: "Ciudad Goron",
-          items: [
-          { id: "sk-goron-city-1", name: "#1" },
-          ],
-        },
-        {
-          id: "sk-dmc",
-          name: "Cráter de la Montaña de la Muerte",
-          items: [
-          { id: "sk-dmc-1", name: "#1" },
-          { id: "sk-dmc-2", name: "#2" },
-          ],
-        },
-        {
-          id: "sk-zora-river",
-          name: "Río Zora",
-          items: [
-          { id: "sk-zora-river-1", name: "#1" },
-          { id: "sk-zora-river-2", name: "#2" },
-          ],
-        },
-        {
-          id: "sk-zora-domain",
-          name: "Reino Zora",
-          items: [
-          { id: "sk-zora-domain-1", name: "#1" },
-          ],
-        },
-        {
-          id: "sk-zora-fountain",
-          name: "Fuente Zora",
-          items: [
-          { id: "sk-zora-fountain-1", name: "#1" },
-          { id: "sk-zora-fountain-2", name: "#2" },
+          { id: "sk-12", name: "#12" },
+          { id: "sk-13", name: "#13" },
+          { id: "sk-40", name: "#40" },
+          { id: "sk-41", name: "#41" },
           ],
         },
         {
           id: "sk-lake-hylia",
           name: "Lago Hylia",
           items: [
-          { id: "sk-lake-hylia-1", name: "#1" },
-          { id: "sk-lake-hylia-2", name: "#2" },
-          { id: "sk-lake-hylia-3", name: "#3" },
-          { id: "sk-lake-hylia-4", name: "#4" },
-          { id: "sk-lake-hylia-5", name: "#5" },
+          { id: "sk-14", name: "#14" },
+          { id: "sk-15", name: "#15" },
+          { id: "sk-37", name: "#37" },
+          { id: "sk-77", name: "#77" },
           ],
         },
         {
           id: "sk-gerudo-valley",
           name: "Valle Gerudo",
           items: [
-          { id: "sk-gerudo-valley-1", name: "#1" },
-          { id: "sk-gerudo-valley-2", name: "#2" },
-          { id: "sk-gerudo-valley-3", name: "#3" },
-          { id: "sk-gerudo-valley-4", name: "#4" },
+          { id: "sk-16", name: "#16" },
+          { id: "sk-39", name: "#39" },
+          { id: "sk-87", name: "#87" },
+          { id: "sk-88", name: "#88" },
+          ],
+        },
+        {
+          id: "sk-kokiri-forest",
+          name: "Bosque Kokiri",
+          items: [
+          { id: "sk-17", name: "#17" },
+          { id: "sk-18", name: "#18" },
+          { id: "sk-47", name: "#47" },
+          ],
+        },
+        {
+          id: "sk-lost-woods",
+          name: "Bosque Perdido",
+          items: [
+          { id: "sk-19", name: "#19" },
+          { id: "sk-20", name: "#20" },
+          { id: "sk-48", name: "#48" },
+          ],
+        },
+        {
+          id: "sk-death-mountain",
+          name: "Montaña de la Muerte",
+          items: [
+          { id: "sk-21", name: "#21" },
+          { id: "sk-25", name: "#25" },
+          { id: "sk-63", name: "#63" },
+          { id: "sk-64", name: "#64" },
+          ],
+        },
+        {
+          id: "sk-goron-city",
+          name: "Ciudad Goron",
+          items: [
+          { id: "sk-26", name: "#26" },
+          { id: "sk-56", name: "#56" },
+          ],
+        },
+        {
+          id: "sk-dmc",
+          name: "Cráter de la Montaña de la Muerte",
+          items: [
+          { id: "sk-27", name: "#27" },
+          { id: "sk-57", name: "#57" },
+          ],
+        },
+        {
+          id: "sk-zora-river",
+          name: "Río Zora",
+          items: [
+          { id: "sk-28", name: "#28" },
+          { id: "sk-29", name: "#29" },
+          { id: "sk-65", name: "#65" },
+          { id: "sk-66", name: "#66" },
+          ],
+        },
+        {
+          id: "sk-zora-fountain",
+          name: "Fuente Zora",
+          items: [
+          { id: "sk-30", name: "#30" },
+          { id: "sk-35", name: "#35" },
+          { id: "sk-100", name: "#100" },
+          ],
+        },
+        {
+          id: "sk-hyrule-field",
+          name: "Pradera de Hyrule",
+          items: [
+          { id: "sk-38", name: "#38" },
+          { id: "sk-42", name: "#42" },
+          ],
+        },
+        {
+          id: "sk-ganons-tower",
+          name: "Torre de Ganon",
+          items: [
+          { id: "sk-46", name: "#46" },
+          ],
+        },
+        {
+          id: "sk-sacred-meadow",
+          name: "Pradera Sagrada del Bosque",
+          items: [
+          { id: "sk-49", name: "#49" },
+          ],
+        },
+        {
+          id: "sk-zora-domain",
+          name: "Dominio Zora",
+          items: [
+          { id: "sk-67", name: "#67" },
+          ],
+        },
+        {
+          id: "sk-lake-lab",
+          name: "Laboratorio del Lago",
+          items: [
+          { id: "sk-71", name: "#71" },
           ],
         },
         {
           id: "sk-gerudo-fortress",
           name: "Fortaleza Gerudo",
           items: [
-          { id: "sk-gerudo-fortress-1", name: "#1" },
-          { id: "sk-gerudo-fortress-2", name: "#2" },
+          { id: "sk-89", name: "#89" },
+          { id: "sk-90", name: "#90" },
           ],
         },
         {
           id: "sk-wasteland",
-          name: "Desierto de los Espectros",
+          name: "Búnker del Desierto",
           items: [
-          { id: "sk-wasteland-1", name: "#1" },
+          { id: "sk-91", name: "#91" },
           ],
         },
         {
           id: "sk-desert-colossus",
           name: "Coloso del Desierto",
           items: [
-          { id: "sk-desert-colossus-1", name: "#1" },
-          { id: "sk-desert-colossus-2", name: "#2" },
+          { id: "sk-92", name: "#92" },
+          { id: "sk-96", name: "#96" },
+          { id: "sk-97", name: "#97" },
           ],
         },
         ],
