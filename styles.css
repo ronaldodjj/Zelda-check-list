@@ -347,6 +347,31 @@ main { padding: 0 16px 8px; max-width: 720px; margin: 0 auto; }
   color: #fff;
 }
 
+.group-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 12px 6px 2px;
+  border-top: 1px dashed var(--border);
+  margin-top: 6px;
+}
+.group-header:first-of-type {
+  border-top: none;
+  margin-top: 0;
+}
+.group-name {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--text);
+}
+.group-count {
+  font-size: 0.7rem;
+  color: var(--text-faint);
+  font-variant-numeric: tabular-nums;
+  flex-shrink: 0;
+}
+
 .empty-state {
   text-align: center;
   color: var(--text-faint);

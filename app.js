@@ -58,6 +58,9 @@
       for (let i = 1; i <= cat.count; i++) keys.push(`${cat.id}:${i}`);
       return keys;
     }
+    if (cat.type === "grouped-list") {
+      return cat.groups.flatMap((g) => g.items.map((it) => it.id));
+    }
     return cat.items.map((it) => it.id);
   }
 
@@ -164,10 +167,22 @@
       const isCustomCat = (customCategories[game.id] || []).some((c) => c.id === cat.id);
       let items = null;
       let gridCount = null;
+      let visibleGroups = null;
 
       if (cat.type === "grid") {
         gridCount = cat.count;
         if (term && !cat.name.toLowerCase().includes(term)) continue;
+      } else if (cat.type === "grouped-list") {
+        visibleGroups = cat.groups
+          .map((g) => {
+            const groupMatches = g.name.toLowerCase().includes(term);
+            const filteredItems = !term || groupMatches
+              ? g.items
+              : g.items.filter((it) => `${g.name} ${it.name}`.toLowerCase().includes(term));
+            return { group: g, filteredItems };
+          })
+          .filter((g) => !term || g.filteredItems.length > 0);
+        if (term && visibleGroups.length === 0) continue;
       } else {
         items = term
           ? cat.items.filter((it) => it.name.toLowerCase().includes(term))
@@ -247,6 +262,33 @@
           gridWrap.appendChild(cell);
         }
         body.appendChild(gridWrap);
+      } else if (cat.type === "grouped-list") {
+        for (const { group: g, filteredItems } of visibleGroups) {
+          const groupTotal = g.items.length;
+          const groupDone = g.items.filter((it) => gState[it.id]).length;
+
+          const groupHeader = document.createElement("div");
+          groupHeader.className = "group-header";
+          groupHeader.innerHTML = `
+            <span class="group-name">📍 ${escapeHTML(g.name)}</span>
+            <span class="group-count">${groupDone}/${groupTotal}</span>
+          `;
+          body.appendChild(groupHeader);
+
+          const gridWrap = document.createElement("div");
+          gridWrap.className = "grid-wrap";
+          for (const it of filteredItems) {
+            const cell = document.createElement("button");
+            const checked = !!gState[it.id];
+            cell.className = "grid-cell" + (checked ? " checked" : "");
+            cell.textContent = it.name.replace(/^#/, "");
+            cell.dataset.key = it.id;
+            cell.dataset.gameId = game.id;
+            cell.type = "button";
+            gridWrap.appendChild(cell);
+          }
+          body.appendChild(gridWrap);
+        }
       } else {
         for (const it of items) {
           const row = document.createElement("div");

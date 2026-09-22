@@ -1,4 +1,4 @@
-const CACHE_NAME = "zelda-checklist-v2";
+const CACHE_NAME = "zelda-checklist-v3";
 const APP_SHELL = [
   "./",
   "./index.html",
